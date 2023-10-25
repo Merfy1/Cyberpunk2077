@@ -11,6 +11,15 @@ img {
   max-width: 100%;
 }
 
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Archangelsk";
+  src: url("/fonts/archangelsk.ttf");
+}
 .header {
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
@@ -19,16 +28,16 @@ img {
 .header-wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 20px 320px;
+  padding-top: 20px;
 }
 .header-more {
+  margin-left: auto;
   width: 625px;
   height: 360px;
-  margin: 528px;
+  margin-top: 528px;
   background-color: #F8F200;
   -webkit-clip-path: polygon(8% 0, 100% 0, 100% 82%, 91% 100%, 0 100%, 0 14%);
           clip-path: polygon(8% 0, 100% 0, 100% 82%, 91% 100%, 0 100%, 0 14%);
-  margin-left: 970px;
   padding: 70px;
 }
 .header-more__title {
@@ -57,7 +66,43 @@ img {
   margin-right: 0px;
 }
 
-@font-face {
+.about {
+  margin-top: 70px;
+}
+.about-title {
   font-family: "Archangelsk";
-  src: url("/fonts/archangelsk.ttf");
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 63.3px;
+}
+.about-sub-title {
+  font-family: "Roboto";
+  color: #777777;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+}
+.about-sub-title span {
+  color: #52BEDC;
+}
+.about-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.first-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.screenshot1 {
+  margin-top: 32px;
+  -webkit-clip-path: polygon(8% 0, 100% 0, 100% 82%, 91% 100%, 0 100%, 0 14%);
+          clip-path: polygon(8% 0, 100% 0, 100% 82%, 91% 100%, 0 100%, 0 14%);
+}
+
+.screenshot {
+  -webkit-clip-path: polygon(8% 0, 100% 0, 100% 82%, 91% 100%, 0 100%, 0 14%);
+          clip-path: polygon(8% 0, 100% 0, 100% 82%, 91% 100%, 0 100%, 0 14%);
 }/*# sourceMappingURL=style.css.map */
