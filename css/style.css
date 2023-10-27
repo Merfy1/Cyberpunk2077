@@ -298,9 +298,6 @@ img {
   line-height: 63.3px;
   margin-bottom: 25px;
 }
-.buy-info {
-  padding: 70px 0;
-}
 .buy-info-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -342,4 +339,37 @@ img {
 
 .platform2 {
   margin-bottom: 50px;
+}
+
+.footer {
+  padding: 13px 0;
+}
+.footer-first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-second__img span {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+.footer-second__img-text {
+  margin-right: 32px;
+}
+.footer-free {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.06px;
+  padding: 13px 0;
+  text-align: center;
+}
+
+.first {
+  margin-right: 32px;
 }/*# sourceMappingURL=style.css.map */
