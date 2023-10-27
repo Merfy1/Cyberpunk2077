@@ -117,6 +117,7 @@ img {
 
 .promotion {
   background-color: black;
+  position: relative;
 }
 .promotion-header {
   display: flex;
@@ -206,4 +207,76 @@ img {
   font-weight: 300;
   font-size: 12px;
   line-height: 21.09px;
+}
+
+.zerno1 {
+  width: 100%;
+  position: absolute;
+  margin-bottom: -69px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.monitor {
+  background-color: #F8F200;
+  padding-top: 140px;
+  padding-bottom: 70px;
+}
+.monitor-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.monitor-about {
+  max-width: 625px;
+}
+.monitor-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.monitor-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 540px;
+  margin-top: 25px;
+}
+.monitor-title {
+  color: black;
+  font-family: "Archangelsk";
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 63.3px;
+  margin: 0;
+}
+.monitor-sub-title {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: black;
+}
+.monitor-character {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.monitor-character__image {
+  margin-right: 10px;
+}
+.monitor-character__text {
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+.monitor-button {
+  font-family: "Roboto" sans-serif;
+  color: #F8F200;
+  padding: 19px 50px;
+  background-color: black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.09px;
+  max-width: 195px;
+  margin-top: 30px;
 }/*# sourceMappingURL=style.css.map */
