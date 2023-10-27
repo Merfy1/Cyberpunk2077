@@ -47,7 +47,7 @@ img {
   line-height: 63.3px;
 }
 .header-more__button {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #F8F200;
   padding: 19px 50px;
   background-color: black;
@@ -77,7 +77,7 @@ img {
   line-height: 63.3px;
 }
 .about-sub-title {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #777777;
   font-weight: 400;
   font-size: 18px;
@@ -131,7 +131,7 @@ img {
   margin-left: 32px;
 }
 .promotion-sub-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 34px;
@@ -152,7 +152,7 @@ img {
   border-left: none;
   border-top: none;
   border-right: none;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 21.09px;
@@ -165,7 +165,7 @@ img {
 .person-button {
   background-color: #F8F200;
   padding: 19px 50px;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 21.09px;
@@ -173,7 +173,7 @@ img {
 }
 .person-text {
   color: #FFFFFF;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 12px;
   line-height: 14.06px;
@@ -196,14 +196,14 @@ img {
 }
 .add span {
   color: #FFFFFF;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 18px;
   line-height: 21.09px;
 }
 .add span1 {
   color: #FFFFFF;
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 12px;
   line-height: 21.09px;
@@ -249,7 +249,7 @@ img {
   margin: 0;
 }
 .monitor-sub-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 34px;
@@ -264,13 +264,13 @@ img {
   margin-right: 10px;
 }
 .monitor-character__text {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.09px;
 }
 .monitor-button {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #F8F200;
   padding: 19px 50px;
   background-color: black;
@@ -279,4 +279,67 @@ img {
   line-height: 21.09px;
   max-width: 195px;
   margin-top: 30px;
+}
+
+.buy {
+  background-color: #000000;
+}
+.buy-image {
+  margin-right: 32px;
+}
+.buy-wrapper {
+  display: flex;
+}
+.buy-title {
+  color: white;
+  font-family: "Archangelsk";
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 63.3px;
+  margin-bottom: 25px;
+}
+.buy-info {
+  padding: 70px 0;
+}
+.buy-info-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #52BEDC;
+}
+.buy-info__sets {
+  margin-top: 15px;
+}
+.buy-info__set {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.buy-info__set-text {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+.buy-info__set-img {
+  margin-right: 15px;
+}
+.buy-info__platform {
+  margin-top: 55px;
+}
+.buy-info__platform-icon {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.platform-img {
+  margin-right: 80px;
+}
+
+.platform2 {
+  margin-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
